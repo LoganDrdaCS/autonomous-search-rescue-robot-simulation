@@ -3,16 +3,15 @@
 This project, written in Lua and modeled in CoppeliaSim, demonstrates an adaptive robot capable of navigating its environment autonomously to detect and interact with obstacles and a designated target. The robot uses proximity sensors and reactive decision-making algorithms to avoid obstacles and locate the target with precision. Additionally, the project includes a user interface for real-time speed control, providing flexibility and customization during operation.
 
 ## Table of Contents
-
 - [Features and Code Overview](#features-and-code-overview)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Video Demonstration](#video-demonstration)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
 
 ## Features and Code Overview
-
 This project showcases an autonomous robot equipped with real-time sensor-based navigation and control mechanisms. Key features and their corresponding technical implementations include:
 
 - **Autonomous Decision-Making**: The robot processes real-time data from proximity sensors to navigate and respond dynamically to its surroundings.
@@ -50,3 +49,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments:
 - CoppeliaSim for the simulation environment and the 3D model of the robot (BubbleRob)
 - SimUI library for user interface creation.
+
+## Contact
+Logan Drda - logan.drda.cs@gmail.com
