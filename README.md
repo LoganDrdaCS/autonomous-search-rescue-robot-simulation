@@ -43,10 +43,10 @@ Check out a narrated demonstration of the project on YouTube:
 
 [![Watch the Demo](images/demonstration.jpg)](https://youtu.be/3q-JUUq5fc0)
 
-## License:
+## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments:
+## Acknowledgments
 - CoppeliaSim for the simulation environment and the 3D model of the robot (BubbleRob)
 - SimUI library for user interface creation.
 
