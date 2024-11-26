@@ -1,6 +1,6 @@
 # Autonomous Search and Rescue Robot Simulation
 
-This project, written in Lua and modeled in CoppeliaSim, demonstrates an adaptive robot capable of navigating its environment autonomously to detect and interact with obstacles and a designated target. The robot uses proximity sensors and reactive decision-making algorithms to avoid obstacles and locate the target with precision. Additionally, the project includes a user interface for real-time speed control, providing flexibility and customization during operation.
+This project, written in Lua and modeled in CoppeliaSim, demonstrates a robot capable of navigating its environment to detect and interact with obstacles and a designated target. The robot uses proximity sensors and reactive algorithms to avoid obstacles and locate the target. Additionally, a user interface for real-time speed control provides flexibility and customization during operation.
 
 ## Table of Contents
 - [Features and Code Overview](#features-and-code-overview)
@@ -14,13 +14,12 @@ This project, written in Lua and modeled in CoppeliaSim, demonstrates an adaptiv
 ## Features and Code Overview
 This project showcases an autonomous robot equipped with real-time sensor-based navigation and control mechanisms. Key features and their corresponding technical implementations include:
 
-- **Autonomous Decision-Making**: The robot processes real-time data from proximity sensors to navigate and respond dynamically to its surroundings.
-- **Obstacle Detection and Avoidance**: Using proximity sensors, the robot detects obstacles in its path, autonomously backing up / rotating when blocked and resuming forward motion when the path is clear.
+- **Reactive Navigation**: The robot uses real-time sensor data to navigate and respond to obstacles by backing up when blocked and resuming forward motion when the path is clear.
 - **Target Detection**: The robot identifies a specific target (referred to as the "victim") using proximity sensors. Upon detection, the robot changes the sensor color to green, signaling mission success.
-- **Dynamic Speed Control**: A user-friendly interface, built with the SimUI library, allows real-time speed adjustments, enabling experimentation and precise control during the simulation.
-- **Visualization**: The robot's movement, interactions with obstacles, and target detection are visualized through drawing objects in the simulation, providing an intuitive way to monitor its behavior.
+- **Dynamic Speed Control**: A user-friendly interface, built with the SimUI library, allows real-time speed adjustments, offering flexibility during the simulation.
+- **Visualization**: The robot's movements, obstacle interactions, and target detection are visualized through drawing objects in the simulation, making it easier to monitor the robot's behavior.
 
-By combining these features, the robot achieves autonomous navigation, responsive behavior, and target detection in a visually rich simulation environment. The modular and adjustable design makes it a versatile tool for experimentation and demonstration.
+By combining these features, the robot achieves sensor-based navigation and target detection within a simulated environment, providing flexibility for experimentation and demonstration.
 
 ## Installation
 1. Clone the repository to your local machine:
